@@ -11,10 +11,25 @@
     transform: translateY(-5px);
 }
 
-.feature-box i {
+/* Handle both FontAwesome and custom icons */
+.feature-box i,
+.feature-box .elementor-icon i,
+.feature-box .elementor-icon svg,
+.feature-box svg{
     font-size: 40px;
     margin-bottom: 20px;
     color: #007bff;
+    width: 40px; /* Set fixed width for consistency */
+    height: 40px; /* Set fixed height for consistency */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Ensure SVG icons maintain aspect ratio */
+.feature-box .elementor-icon svg {
+    width: 40px;
+    height: auto;
+    max-height: 40px;
 }
 
 .feature-box h4 {
