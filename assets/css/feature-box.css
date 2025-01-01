@@ -1,0 +1,35 @@
+.feature-box {
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.feature-box i {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.feature-box h4 {
+    margin-bottom: 15px;
+}
+
+.feature-box h4 a {
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.feature-box p {
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
